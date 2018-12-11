@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="number" label="Job ID" language="en" table="x_298718_jobs4u_jobs">
+    <sys_documentation element="email" label="Email" language="en" table="x_298718_jobs4u_applications">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>email</element>
             <help/>
             <hint/>
-            <label>Job ID</label>
+            <label>Email</label>
             <language>en</language>
-            <name>x_298718_jobs4u_jobs</name>
-            <plural>Job IDs</plural>
+            <name>x_298718_jobs4u_applications</name>
+            <plural>Emails</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-11 17:00:56</sys_created_on>
-            <sys_id>7fc59b714f9e23001b8d00f18110c7e6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Job ID</sys_name>
+            <sys_created_on>2018-12-11 17:20:47</sys_created_on>
+            <sys_id>a25a5f354f9e23001b8d00f18110c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Email</sys_name>
             <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
             <sys_policy/>
             <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
-            <sys_update_name>sys_documentation_x_298718_jobs4u_jobs_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_298718_jobs4u_applications_email_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-11 17:07:03</sys_updated_on>
+            <sys_updated_on>2018-12-11 17:20:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Verify that end date is  not before start date prior to entering or updating a Job entry.  If start is greater than end, clear the end date and alert user</description>
+        <field>end_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Verify End Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var startDate =  new Date(g_form.getValue('start_date')) ;
+	var endDate = new Date(newValue);
+	
+	if(startDate.getTime()>endDate.getTime()){
+		alert('Please select an end date that is on or after Start date');
+		g_form.setValue('end_date', '');
+	}
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 18:35:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba49eb7d4f9e23001b8d00f18110c717</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Verify End Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
+        <sys_update_name>sys_script_client_ba49eb7d4f9e23001b8d00f18110c717</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 19:05:06</sys_updated_on>
+        <table>x_298718_jobs4u_jobs</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

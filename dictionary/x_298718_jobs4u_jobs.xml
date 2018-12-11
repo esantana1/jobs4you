@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Jobs" max_length="40" name="x_298718_jobs4u_jobs" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element audit="true" label="Jobs" max_length="40" name="x_298718_jobs4u_jobs" type="collection">
+        <element label="Available" max_length="40" name="available" type="boolean"/>
+        <element label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Job description" max_length="2500" name="job_description" type="string"/>
+        <element label="Job name" mandatory="true" max_length="40" name="job_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Job ID" max_length="40" name="number" type="string"/>
+        <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
     </element>
 </database>
