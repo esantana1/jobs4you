@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Apply 4Jobs">9e2d48c24f1263001b8d00f18110c773</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 21:03:18</sys_created_on>
+        <sys_id>0e4d88c24f1263001b8d00f18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply 4 Jobs.catalog_apply_4_jobs</sys_name>
+        <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_apply_4_jobs">0e4d88c24f1263001b8d00f18110c7b8</sys_portal_page>
+        <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_0e4d88c24f1263001b8d00f18110c7b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 21:03:18</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

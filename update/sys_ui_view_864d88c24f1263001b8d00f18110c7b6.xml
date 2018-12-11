@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_apply_4_jobs</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 21:03:18</sys_created_on>
+        <sys_id>864d88c24f1263001b8d00f18110c7b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply 4 Jobs View</sys_name>
+        <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
+        <sys_update_name>sys_ui_view_864d88c24f1263001b8d00f18110c7b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 21:03:18</sys_updated_on>
+        <title>Apply 4 Jobs View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

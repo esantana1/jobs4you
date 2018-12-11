@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Job Applications Configurations</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 20:25:35</sys_created_on>
+        <sys_id>7084408e4fde23001b8d00f18110c767</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Job Applications Configurations</sys_name>
+        <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
+        <sys_update_name>sys_properties_category_7084408e4fde23001b8d00f18110c767</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 20:30:03</sys_updated_on>
+        <title><![CDATA[<p><strong>Set values of  due dates or updates when dealing with job application</strong></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=7084408e4fde23001b8d00f18110c767"/>
+</record_update>

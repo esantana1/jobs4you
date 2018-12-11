@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>5,10,15,20</choices>
+        <description>Set Automatic Due dates when recieving  a new application from the date it was recieved</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_298718_jobs4u.autoDueDate</name>
+        <read_roles>admin</read_roles>
+        <suffix>autoDueDate</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 20:32:56</sys_created_on>
+        <sys_id>fed4048e4fde23001b8d00f18110c7bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_298718_jobs4u.autoDueDate</sys_name>
+        <sys_package display_value="Jobs4U" source="x_298718_jobs4u">13c55f314f9e23001b8d00f18110c748</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jobs4U">13c55f314f9e23001b8d00f18110c748</sys_scope>
+        <sys_update_name>sys_properties_fed4048e4fde23001b8d00f18110c7bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 20:44:18</sys_updated_on>
+        <type>choicelist</type>
+        <value>10</value>
+        <write_roles>admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=fed4048e4fde23001b8d00f18110c7bf"/>
+</record_update>
